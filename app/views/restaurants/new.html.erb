@@ -1,0 +1,11 @@
+<%= simple_form_for @restaurant do |f| %>
+<%# todo es un bloque %>
+<%= f.input :name, placeholder: "Write the name of the restaurant" %>
+
+<%= f.input :adrdres, placeholder: "Write the addrees of the restaurant" %>
+
+<%= f.input :category, placeholder: "Put the category of ther restaurant" %>
+
+<%= f.submit "Add", class: "btn-primary btn" %>
+
+<%= end %>
